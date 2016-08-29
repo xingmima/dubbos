@@ -543,18 +543,5 @@
         </plugins>
     </build>
 
-	<distributionManagement>
-		<repository>
-            <id>nexus-releases</id>
-            <name>thirdparty</name>
-			<url>http://192.168.105.252:8088/nexus/content/repositories/thirdparty/</url>
-        </repository>
-		<!--<snapshotRepository>
-           <id>nexus-snapshots</id>
-            <name>thirdparty</name>
-			<url>http://192.168.105.252:8088/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository> 
-		-->
-	</distributionManagement>
 
 </project>
